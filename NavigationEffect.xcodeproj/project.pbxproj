@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8067ACA2C49473F0046247C /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8067AC92C49473F0046247C /* PhotoViewModel.swift */; };
 		A897A0E02C475A19001C66E7 /* NavigationEffetctApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897A0DF2C475A19001C66E7 /* NavigationEffetctApp.swift */; };
-		A897A0E22C475A19001C66E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897A0E12C475A19001C66E7 /* ContentView.swift */; };
+		A897A0E22C475A19001C66E7 /* PhotoGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897A0E12C475A19001C66E7 /* PhotoGalleryView.swift */; };
 		A897A0E42C475A1A001C66E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A897A0E32C475A1A001C66E7 /* Assets.xcassets */; };
 		A897A0E72C475A1A001C66E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A897A0E62C475A1A001C66E7 /* Preview Assets.xcassets */; };
+		A897A0EE2C47ABB3001C66E7 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897A0ED2C47ABB3001C66E7 /* DataModel.swift */; };
+		A897A0F02C48DDCC001C66E7 /* PhotoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897A0EF2C48DDCC001C66E7 /* PhotoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A897A0DC2C475A19001C66E7 /* NavigationEffetct.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationEffetct.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8067AC92C49473F0046247C /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		A897A0DC2C475A19001C66E7 /* NavigationEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A897A0DF2C475A19001C66E7 /* NavigationEffetctApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationEffetctApp.swift; sourceTree = "<group>"; };
-		A897A0E12C475A19001C66E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A897A0E12C475A19001C66E7 /* PhotoGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryView.swift; sourceTree = "<group>"; };
 		A897A0E32C475A1A001C66E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A897A0E62C475A1A001C66E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A897A0ED2C47ABB3001C66E7 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		A897A0EF2C48DDCC001C66E7 /* PhotoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8067ACB2C4A5E630046247C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A897A0ED2C47ABB3001C66E7 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8067ACC2C4A5E8C0046247C /* VIew */ = {
+			isa = PBXGroup;
+			children = (
+				A897A0E12C475A19001C66E7 /* PhotoGalleryView.swift */,
+				A897A0EF2C48DDCC001C66E7 /* PhotoItemView.swift */,
+			);
+			path = VIew;
+			sourceTree = "<group>";
+		};
+		A8067ACD2C4A5E9B0046247C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8067AC92C49473F0046247C /* PhotoViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		A897A0D32C475A18001C66E7 = {
 			isa = PBXGroup;
 			children = (
@@ -43,7 +74,7 @@
 		A897A0DD2C475A19001C66E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A897A0DC2C475A19001C66E7 /* NavigationEffetct.app */,
+				A897A0DC2C475A19001C66E7 /* NavigationEffect.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +82,10 @@
 		A897A0DE2C475A19001C66E7 /* NavigationEffetct */ = {
 			isa = PBXGroup;
 			children = (
+				A8067ACB2C4A5E630046247C /* Model */,
+				A8067ACC2C4A5E8C0046247C /* VIew */,
+				A8067ACD2C4A5E9B0046247C /* ViewModel */,
 				A897A0DF2C475A19001C66E7 /* NavigationEffetctApp.swift */,
-				A897A0E12C475A19001C66E7 /* ContentView.swift */,
 				A897A0E32C475A1A001C66E7 /* Assets.xcassets */,
 				A897A0E52C475A1A001C66E7 /* Preview Content */,
 			);
@@ -70,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A897A0DB2C475A19001C66E7 /* NavigationEffetct */ = {
+		A897A0DB2C475A19001C66E7 /* NavigationEffect */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A897A0EA2C475A1A001C66E7 /* Build configuration list for PBXNativeTarget "NavigationEffetct" */;
+			buildConfigurationList = A897A0EA2C475A1A001C66E7 /* Build configuration list for PBXNativeTarget "NavigationEffect" */;
 			buildPhases = (
 				A897A0D82C475A19001C66E7 /* Sources */,
 				A897A0D92C475A19001C66E7 /* Frameworks */,
@@ -82,9 +115,9 @@
 			);
 			dependencies = (
 			);
-			name = NavigationEffetct;
+			name = NavigationEffect;
 			productName = NavigationEffetct;
-			productReference = A897A0DC2C475A19001C66E7 /* NavigationEffetct.app */;
+			productReference = A897A0DC2C475A19001C66E7 /* NavigationEffect.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A897A0D72C475A18001C66E7 /* Build configuration list for PBXProject "NavigationEffetct" */;
+			buildConfigurationList = A897A0D72C475A18001C66E7 /* Build configuration list for PBXProject "NavigationEffect" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A897A0DB2C475A19001C66E7 /* NavigationEffetct */,
+				A897A0DB2C475A19001C66E7 /* NavigationEffect */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A897A0E22C475A19001C66E7 /* ContentView.swift in Sources */,
+				A897A0E22C475A19001C66E7 /* PhotoGalleryView.swift in Sources */,
 				A897A0E02C475A19001C66E7 /* NavigationEffetctApp.swift in Sources */,
+				A897A0F02C48DDCC001C66E7 /* PhotoItemView.swift in Sources */,
+				A897A0EE2C47ABB3001C66E7 /* DataModel.swift in Sources */,
+				A8067ACA2C49473F0046247C /* PhotoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +316,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +346,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +363,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A897A0D72C475A18001C66E7 /* Build configuration list for PBXProject "NavigationEffetct" */ = {
+		A897A0D72C475A18001C66E7 /* Build configuration list for PBXProject "NavigationEffect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A897A0E82C475A1A001C66E7 /* Debug */,
@@ -334,7 +372,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A897A0EA2C475A1A001C66E7 /* Build configuration list for PBXNativeTarget "NavigationEffetct" */ = {
+		A897A0EA2C475A1A001C66E7 /* Build configuration list for PBXNativeTarget "NavigationEffect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A897A0EB2C475A1A001C66E7 /* Debug */,

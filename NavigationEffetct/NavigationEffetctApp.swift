@@ -1,6 +1,6 @@
 //
-//  NavigationEffetctApp.swift
-//  NavigationEffetct
+//  NavigationEffectApp.swift
+//  NavigationEffect
 //
 //  Created by window1 on 7/17/24.
 //
@@ -11,7 +11,7 @@ import SwiftUI
 struct NavigationEffetctApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PhotoGalleryView(selectedItem: .init(value: "bobcat", index: 0))
         }
     }
 }
