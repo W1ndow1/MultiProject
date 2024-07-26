@@ -24,7 +24,7 @@ struct PhotoItemView: View {
                 .ignoresSafeArea()
                 .opacity(!showDetailView ? 0 : 1 - abs(Double(position.height) / 800))
             HStack {
-                Image(seletedItem.value)
+                Image(seletedItem.value ?? "")
                     .resizable()
                     .scaledToFit()
                     .zIndex(2)
@@ -42,7 +42,7 @@ struct PhotoItemView: View {
                     )
             }
         }
-        .navigationTitle("\(String(seletedItem.value))")
+        .navigationTitle("\(String(seletedItem.value ?? ""))")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
@@ -81,7 +81,7 @@ struct PhotoItemView: View {
     
     func checkGestureEndMove(_ value: DragGesture.Value) {
         if isHDrag {
-            changeSelectedItem(width: position.width, index: seletedItem.index)
+            changeSelectedItem(width: position.width, index: seletedItem.index ?? 0)
             self.position = .zero
         }
         else if isVDrag {
@@ -106,7 +106,7 @@ struct PhotoItemView: View {
         else if width < -threshold && index != model.data.endIndex - 1 {
             seletedItem.index = index + 1
         }
-        seletedItem = model.data[seletedItem.index]
+        seletedItem = (model.data[seletedItem.index ?? 0])
     }
 }
 
@@ -114,3 +114,5 @@ struct PhotoItemView: View {
 #Preview {
     PhotoItemView(model: .init(), showDetailView: .constant(false), seletedItem: .constant(.init(value: "bobcat", index: 0)), position: .constant(CGSize(width: 0, height: 0)))
 }
+
+

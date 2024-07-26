@@ -8,9 +8,9 @@
 import Foundation
 
 struct DataModel: Identifiable, Equatable {
-    var id: UUID = .init()
-    var value: String
-    var index: Int
+    var id: String = UUID().uuidString
+    var value: String?
+    var index: Int?
 }
 
 

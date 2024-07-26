@@ -8,6 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		A8067ACA2C49473F0046247C /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8067AC92C49473F0046247C /* PhotoViewModel.swift */; };
+		A8067ACF2C4EA9D00046247C /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8067ACE2C4EA9D00046247C /* Home.swift */; };
+		A8067AD12C4EC2D40046247C /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8067AD02C4EC2D40046247C /* Detail.swift */; };
+		A8067AD32C4ED3840046247C /* HeroLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8067AD22C4ED3840046247C /* HeroLayer.swift */; };
+		A8067AD52C4ED4580046247C /* HeroKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8067AD42C4ED4580046247C /* HeroKey.swift */; };
+		A88820842C5237BB00BD84DF /* ProjectList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88820832C5237BB00BD84DF /* ProjectList.swift */; };
+		A88820882C524E3900BD84DF /* ScrollableTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88820872C524E3900BD84DF /* ScrollableTabBarView.swift */; };
+		A888208C2C526B7800BD84DF /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A888208B2C526B7800BD84DF /* TabModel.swift */; };
+		A888208E2C537A2C00BD84DF /* RectKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A888208D2C537A2C00BD84DF /* RectKey.swift */; };
+		A88820902C53829200BD84DF /* Interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A888208F2C53829200BD84DF /* Interpolation.swift */; };
+		A88820942C5411B100BD84DF /* MiniPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88820932C5411B100BD84DF /* MiniPlayer.swift */; };
 		A897A0E02C475A19001C66E7 /* NavigationEffetctApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897A0DF2C475A19001C66E7 /* NavigationEffetctApp.swift */; };
 		A897A0E22C475A19001C66E7 /* PhotoGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A897A0E12C475A19001C66E7 /* PhotoGalleryView.swift */; };
 		A897A0E42C475A1A001C66E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A897A0E32C475A1A001C66E7 /* Assets.xcassets */; };
@@ -18,7 +28,17 @@
 
 /* Begin PBXFileReference section */
 		A8067AC92C49473F0046247C /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
-		A897A0DC2C475A19001C66E7 /* NavigationEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8067ACE2C4EA9D00046247C /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A8067AD02C4EC2D40046247C /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		A8067AD22C4ED3840046247C /* HeroLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroLayer.swift; sourceTree = "<group>"; };
+		A8067AD42C4ED4580046247C /* HeroKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroKey.swift; sourceTree = "<group>"; };
+		A88820832C5237BB00BD84DF /* ProjectList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectList.swift; sourceTree = "<group>"; };
+		A88820872C524E3900BD84DF /* ScrollableTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollableTabBarView.swift; sourceTree = "<group>"; };
+		A888208B2C526B7800BD84DF /* TabModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabModel.swift; sourceTree = "<group>"; };
+		A888208D2C537A2C00BD84DF /* RectKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectKey.swift; sourceTree = "<group>"; };
+		A888208F2C53829200BD84DF /* Interpolation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpolation.swift; sourceTree = "<group>"; };
+		A88820932C5411B100BD84DF /* MiniPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniPlayer.swift; sourceTree = "<group>"; };
+		A897A0DC2C475A19001C66E7 /* UITest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A897A0DF2C475A19001C66E7 /* NavigationEffetctApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationEffetctApp.swift; sourceTree = "<group>"; };
 		A897A0E12C475A19001C66E7 /* PhotoGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGalleryView.swift; sourceTree = "<group>"; };
 		A897A0E32C475A1A001C66E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				A897A0ED2C47ABB3001C66E7 /* DataModel.swift */,
+				A8067AD42C4ED4580046247C /* HeroKey.swift */,
+				A888208B2C526B7800BD84DF /* TabModel.swift */,
+				A888208D2C537A2C00BD84DF /* RectKey.swift */,
+				A888208F2C53829200BD84DF /* Interpolation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -49,8 +73,10 @@
 		A8067ACC2C4A5E8C0046247C /* VIew */ = {
 			isa = PBXGroup;
 			children = (
-				A897A0E12C475A19001C66E7 /* PhotoGalleryView.swift */,
-				A897A0EF2C48DDCC001C66E7 /* PhotoItemView.swift */,
+				A88820832C5237BB00BD84DF /* ProjectList.swift */,
+				A88820932C5411B100BD84DF /* MiniPlayer.swift */,
+				A88820862C524E0700BD84DF /* ScrollableTabBar */,
+				A88820852C524D7E00BD84DF /* PhotoGallery */,
 			);
 			path = VIew;
 			sourceTree = "<group>";
@@ -61,6 +87,26 @@
 				A8067AC92C49473F0046247C /* PhotoViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A88820852C524D7E00BD84DF /* PhotoGallery */ = {
+			isa = PBXGroup;
+			children = (
+				A897A0EF2C48DDCC001C66E7 /* PhotoItemView.swift */,
+				A897A0E12C475A19001C66E7 /* PhotoGalleryView.swift */,
+				A8067ACE2C4EA9D00046247C /* Home.swift */,
+				A8067AD02C4EC2D40046247C /* Detail.swift */,
+				A8067AD22C4ED3840046247C /* HeroLayer.swift */,
+			);
+			path = PhotoGallery;
+			sourceTree = "<group>";
+		};
+		A88820862C524E0700BD84DF /* ScrollableTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A88820872C524E3900BD84DF /* ScrollableTabBarView.swift */,
+			);
+			path = ScrollableTabBar;
 			sourceTree = "<group>";
 		};
 		A897A0D32C475A18001C66E7 = {
@@ -74,7 +120,7 @@
 		A897A0DD2C475A19001C66E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A897A0DC2C475A19001C66E7 /* NavigationEffect.app */,
+				A897A0DC2C475A19001C66E7 /* UITest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A897A0DB2C475A19001C66E7 /* NavigationEffect */ = {
+		A897A0DB2C475A19001C66E7 /* UITest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A897A0EA2C475A1A001C66E7 /* Build configuration list for PBXNativeTarget "NavigationEffect" */;
+			buildConfigurationList = A897A0EA2C475A1A001C66E7 /* Build configuration list for PBXNativeTarget "UITest" */;
 			buildPhases = (
 				A897A0D82C475A19001C66E7 /* Sources */,
 				A897A0D92C475A19001C66E7 /* Frameworks */,
@@ -115,9 +161,9 @@
 			);
 			dependencies = (
 			);
-			name = NavigationEffect;
+			name = UITest;
 			productName = NavigationEffetct;
-			productReference = A897A0DC2C475A19001C66E7 /* NavigationEffect.app */;
+			productReference = A897A0DC2C475A19001C66E7 /* UITest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A897A0D72C475A18001C66E7 /* Build configuration list for PBXProject "NavigationEffect" */;
+			buildConfigurationList = A897A0D72C475A18001C66E7 /* Build configuration list for PBXProject "UITest" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,7 +194,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A897A0DB2C475A19001C66E7 /* NavigationEffect */,
+				A897A0DB2C475A19001C66E7 /* UITest */,
 			);
 		};
 /* End PBXProject section */
@@ -170,11 +216,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88820842C5237BB00BD84DF /* ProjectList.swift in Sources */,
 				A897A0E22C475A19001C66E7 /* PhotoGalleryView.swift in Sources */,
+				A8067AD12C4EC2D40046247C /* Detail.swift in Sources */,
+				A88820942C5411B100BD84DF /* MiniPlayer.swift in Sources */,
 				A897A0E02C475A19001C66E7 /* NavigationEffetctApp.swift in Sources */,
 				A897A0F02C48DDCC001C66E7 /* PhotoItemView.swift in Sources */,
 				A897A0EE2C47ABB3001C66E7 /* DataModel.swift in Sources */,
+				A88820902C53829200BD84DF /* Interpolation.swift in Sources */,
+				A8067AD52C4ED4580046247C /* HeroKey.swift in Sources */,
+				A88820882C524E3900BD84DF /* ScrollableTabBarView.swift in Sources */,
+				A8067AD32C4ED3840046247C /* HeroLayer.swift in Sources */,
+				A8067ACF2C4EA9D00046247C /* Home.swift in Sources */,
+				A888208C2C526B7800BD84DF /* TabModel.swift in Sources */,
 				A8067ACA2C49473F0046247C /* PhotoViewModel.swift in Sources */,
+				A888208E2C537A2C00BD84DF /* RectKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,7 +419,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A897A0D72C475A18001C66E7 /* Build configuration list for PBXProject "NavigationEffect" */ = {
+		A897A0D72C475A18001C66E7 /* Build configuration list for PBXProject "UITest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A897A0E82C475A1A001C66E7 /* Debug */,
@@ -372,7 +428,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A897A0EA2C475A1A001C66E7 /* Build configuration list for PBXNativeTarget "NavigationEffect" */ = {
+		A897A0EA2C475A1A001C66E7 /* Build configuration list for PBXNativeTarget "UITest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A897A0EB2C475A1A001C66E7 /* Debug */,
