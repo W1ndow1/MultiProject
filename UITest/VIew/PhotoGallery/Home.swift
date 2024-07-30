@@ -31,7 +31,7 @@ struct Home: View {
             }))
             .defaultScrollAnchor(.bottom)
             .navigationTitle("최근사진")
-            .navigationBarTitleDisplayMode(.automatic)
+            .navigationBarTitleDisplayMode(.inline)
         }
     }
     @ViewBuilder

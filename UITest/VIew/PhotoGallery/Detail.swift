@@ -14,6 +14,7 @@ struct Detail: View {
     var body: some View {
         VStack(spacing: 0) {
             NavigationBar()
+            
             GeometryReader {
                 let size = $0.size
                 ScrollView(.horizontal) {
@@ -29,11 +30,19 @@ struct Detail: View {
                                             
                                         }
                                         .onEnded { value in
-                                            if abs(model.offset.height) > 100 {
+                                            let translation = value.translation
+                                            let velocity = value.velocity
+                                            let height = translation.height + (velocity.height / 5)
+                                            
+                                            if height > (size.height * 0.5) {
+                                                ///뷰 닫기
                                                 model.toggleView(show: false)
                                             } else {
-                                                model.offset = .zero
-                                                model.dragProgress = 0
+                                                ///초기화
+                                                withAnimation(.easeInOut(duration: 0.2)) {
+                                                    model.offset = .zero
+                                                    model.dragProgress = 0
+                                                }
                                             }
                                         }
                                 )
@@ -62,39 +71,6 @@ struct Detail: View {
                             })
                     }
                 }
-
-                /*
-                Rectangle()
-                    .foregroundStyle(.black)
-                    .frame(width: 50)
-                    .contentShape(.rect)
-                    .gesture(
-                        DragGesture(minimumDistance: 0)
-                            .onChanged { value in
-                                let translation = value.translation
-                                model.offset = translation
-                                let heightProgress =  max(min(translation.height / 200, 1), 0)
-                                model.dragProgress = heightProgress
-                            }
-                            .onEnded { value in
-                                let translation = value.translation
-                                let velocity = value.velocity
-                                let height = translation.height + (velocity.height / 5)
-                                
-                                if height > (size.height * 0.5) {
-                                    ///뷰 닫기
-                                    model.toggleView(show: false)
-                                } else {
-                                    ///초기화
-                                    withAnimation(.easeInOut(duration: 0.2)) {
-                                        model.offset = .zero
-                                        model.dragProgress = 0
-                                    }
-                                }
-                            }
-                    )
-                 */
-                 
             }
             .opacity(model.showDetailView ? 1 : 0)
             
@@ -149,7 +125,7 @@ struct Detail: View {
         GeometryReader {
             let size = $0.size
             ScrollView(.horizontal) {
-                LazyHStack(spacing: 5) {
+                LazyHStack(spacing: 2) {
                     ForEach(model.data) { item in
                         if let value = item.value {
                             Image(value)
@@ -157,13 +133,14 @@ struct Detail: View {
                                 .aspectRatio(contentMode: .fill)
                                 .frame(width: 50, height: 50)
                                 .clipped()
-                                .scaleEffect(0.97)
+                                .scaleEffect(0.95)
                         }
                     }
                 }
                 .padding(.vertical, 10)
                 .scrollTargetLayout()
             }
+            .scrollTargetBehavior(.viewAligned)
             .scrollPosition(id: .init(get: {
                 return model.detailIndicatorPosition
             }, set: {
@@ -177,10 +154,10 @@ struct Detail: View {
                     .clipped()
                     .allowsTightening(false)
             }
-            .scrollTargetBehavior(.viewAligned)
             .scrollIndicators(.hidden)
             .onChange(of: model.detailIndicatorPosition, { ov, nv in
                 model.didDetailIndicatorChanged()
+                print(size.width)
             })
         }
         .frame(height: 50)

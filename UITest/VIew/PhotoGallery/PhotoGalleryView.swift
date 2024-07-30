@@ -45,5 +45,5 @@ struct PhotoGalleryView: View {
 }
 
 #Preview {
-    ProjectList()
+    PhotoGalleryView()
 }

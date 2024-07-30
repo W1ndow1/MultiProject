@@ -1,8 +1,7 @@
-
 import SwiftUI
 
 @main
-struct MultiProjectApp: App {
+struct NavigationEffetctApp: App {
     var body: some Scene {
         WindowGroup {
             ProjectList()
