@@ -55,7 +55,7 @@ struct ScrollableTabBarView: View {
     @ViewBuilder
     func HeaderView() -> some View {
         HStack {
-            Image(.bullElk)
+            Image("bullElk")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 100)
@@ -74,7 +74,7 @@ struct ScrollableTabBarView: View {
             .tint(.primary)
             
             Button(action: {}, label: {
-                Image(.grizzly)
+                Image("bullElk")
                     .resizable()
                     .aspectRatio(contentMode: .fill)
                     .frame(width: 30, height: 30)
