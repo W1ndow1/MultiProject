@@ -60,5 +60,5 @@ struct Home: View {
 }
 
 #Preview {
-    ProjectList()
+    Home()
 }

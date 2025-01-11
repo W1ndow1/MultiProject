@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A82914502CB8B871007A868B /* PhotoAssetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A829144F2CB8B871007A868B /* PhotoAssetCollection.swift */; };
+		A82914522CB97A06007A868B /* PhotoCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82914512CB97A06007A868B /* PhotoCollection.swift */; };
 		A849BB452C5972C700AC8FF7 /* MultiProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BB442C5972C700AC8FF7 /* MultiProjectApp.swift */; };
 		A849BB4F2C5972FA00AC8FF7 /* PlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BB482C5972FA00AC8FF7 /* PlayerItem.swift */; };
 		A849BB502C5972FA00AC8FF7 /* RectKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BB492C5972FA00AC8FF7 /* RectKey.swift */; };
-		A849BB512C5972FA00AC8FF7 /* PlaterConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BB4A2C5972FA00AC8FF7 /* PlaterConfig.swift */; };
+		A849BB512C5972FA00AC8FF7 /* PlayerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BB4A2C5972FA00AC8FF7 /* PlayerConfig.swift */; };
 		A849BB522C5972FA00AC8FF7 /* HeroKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BB4B2C5972FA00AC8FF7 /* HeroKey.swift */; };
 		A849BB532C5972FA00AC8FF7 /* TabModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BB4C2C5972FA00AC8FF7 /* TabModel.swift */; };
 		A849BB542C5972FA00AC8FF7 /* Interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BB4D2C5972FA00AC8FF7 /* Interpolation.swift */; };
@@ -23,21 +25,27 @@
 		A849BBA72C59775500AC8FF7 /* HeroLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BB9B2C59775400AC8FF7 /* HeroLayer.swift */; };
 		A849BBA82C59775500AC8FF7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BB9C2C59775400AC8FF7 /* Home.swift */; };
 		A849BBA92C59775500AC8FF7 /* PhotoGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BB9D2C59775400AC8FF7 /* PhotoGalleryView.swift */; };
-		A849BBAA2C59775500AC8FF7 /* PhotoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BB9E2C59775400AC8FF7 /* PhotoItemView.swift */; };
+		A849BBAA2C59775500AC8FF7 /* PhotoGirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BB9E2C59775400AC8FF7 /* PhotoGirdView.swift */; };
 		A849BBAB2C59775500AC8FF7 /* ScrollableTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BBA02C59775400AC8FF7 /* ScrollableTabBarView.swift */; };
 		A849BBAC2C59775500AC8FF7 /* ProjectList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BBA22C59775400AC8FF7 /* ProjectList.swift */; };
 		A849BBAF2C59776200AC8FF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A849BBAD2C59776200AC8FF7 /* Preview Assets.xcassets */; };
 		A849BBB22C59777500AC8FF7 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A849BBB02C59777500AC8FF7 /* PhotoViewModel.swift */; };
+		A84FA1472C68ADAA0000C7E6 /* CachedImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84FA1462C68ADAA0000C7E6 /* CachedImageManager.swift */; };
+		A84FA1492C6BC5760000C7E6 /* PhotoGridCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84FA1482C6BC5760000C7E6 /* PhotoGridCellView.swift */; };
+		A84FA14C2C6C3E140000C7E6 /* PhotoCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84FA14B2C6C3E140000C7E6 /* PhotoCollectionView.swift */; };
+		A86581922C73710B00098A97 /* PhotoGridDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86581912C73710B00098A97 /* PhotoGridDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A829144F2CB8B871007A868B /* PhotoAssetCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAssetCollection.swift; sourceTree = "<group>"; };
+		A82914512CB97A06007A868B /* PhotoCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollection.swift; sourceTree = "<group>"; };
 		A849BB442C5972C700AC8FF7 /* MultiProjectApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultiProjectApp.swift; path = MultiProject/MultiProjectApp.swift; sourceTree = "<group>"; };
 		A849BB482C5972FA00AC8FF7 /* PlayerItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerItem.swift; path = MultiProject/Model/PlayerItem.swift; sourceTree = "<group>"; };
-		A849BB492C5972FA00AC8FF7 /* RectKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RectKey.swift; path = MultiProject/Model/RectKey.swift; sourceTree = "<group>"; };
-		A849BB4A2C5972FA00AC8FF7 /* PlaterConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlaterConfig.swift; path = MultiProject/Model/PlaterConfig.swift; sourceTree = "<group>"; };
-		A849BB4B2C5972FA00AC8FF7 /* HeroKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeroKey.swift; path = MultiProject/Model/HeroKey.swift; sourceTree = "<group>"; };
+		A849BB492C5972FA00AC8FF7 /* RectKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectKey.swift; sourceTree = "<group>"; };
+		A849BB4A2C5972FA00AC8FF7 /* PlayerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlayerConfig.swift; path = MultiProject/Model/PlayerConfig.swift; sourceTree = "<group>"; };
+		A849BB4B2C5972FA00AC8FF7 /* HeroKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroKey.swift; sourceTree = "<group>"; };
 		A849BB4C2C5972FA00AC8FF7 /* TabModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabModel.swift; path = MultiProject/Model/TabModel.swift; sourceTree = "<group>"; };
-		A849BB4D2C5972FA00AC8FF7 /* Interpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Interpolation.swift; path = MultiProject/Model/Interpolation.swift; sourceTree = "<group>"; };
+		A849BB4D2C5972FA00AC8FF7 /* Interpolation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interpolation.swift; sourceTree = "<group>"; };
 		A849BB4E2C5972FA00AC8FF7 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataModel.swift; path = MultiProject/Model/DataModel.swift; sourceTree = "<group>"; };
 		A849BB8A2C5976AB00AC8FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = MultiProject/Assets.xcassets; sourceTree = "<group>"; };
 		A849BB922C59773200AC8FF7 /* Navigation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Navigation+Extension.swift"; sourceTree = "<group>"; };
@@ -47,11 +55,15 @@
 		A849BB9B2C59775400AC8FF7 /* HeroLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroLayer.swift; sourceTree = "<group>"; };
 		A849BB9C2C59775400AC8FF7 /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		A849BB9D2C59775400AC8FF7 /* PhotoGalleryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoGalleryView.swift; sourceTree = "<group>"; };
-		A849BB9E2C59775400AC8FF7 /* PhotoItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoItemView.swift; sourceTree = "<group>"; };
+		A849BB9E2C59775400AC8FF7 /* PhotoGirdView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoGirdView.swift; sourceTree = "<group>"; };
 		A849BBA02C59775400AC8FF7 /* ScrollableTabBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollableTabBarView.swift; sourceTree = "<group>"; };
 		A849BBA22C59775400AC8FF7 /* ProjectList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectList.swift; sourceTree = "<group>"; };
 		A849BBAD2C59776200AC8FF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A849BBB02C59777500AC8FF7 /* PhotoViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		A84FA1462C68ADAA0000C7E6 /* CachedImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CachedImageManager.swift; sourceTree = "<group>"; };
+		A84FA1482C6BC5760000C7E6 /* PhotoGridCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridCellView.swift; sourceTree = "<group>"; };
+		A84FA14B2C6C3E140000C7E6 /* PhotoCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionView.swift; sourceTree = "<group>"; };
+		A86581912C73710B00098A97 /* PhotoGridDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridDetailView.swift; sourceTree = "<group>"; };
 		A897A0DC2C475A19001C66E7 /* MultiProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,12 +82,12 @@
 			isa = PBXGroup;
 			children = (
 				A849BB4E2C5972FA00AC8FF7 /* DataModel.swift */,
-				A849BB4B2C5972FA00AC8FF7 /* HeroKey.swift */,
-				A849BB4D2C5972FA00AC8FF7 /* Interpolation.swift */,
-				A849BB4A2C5972FA00AC8FF7 /* PlaterConfig.swift */,
+				A849BB4A2C5972FA00AC8FF7 /* PlayerConfig.swift */,
 				A849BB482C5972FA00AC8FF7 /* PlayerItem.swift */,
-				A849BB492C5972FA00AC8FF7 /* RectKey.swift */,
 				A849BB4C2C5972FA00AC8FF7 /* TabModel.swift */,
+				A84FA1462C68ADAA0000C7E6 /* CachedImageManager.swift */,
+				A829144F2CB8B871007A868B /* PhotoAssetCollection.swift */,
+				A82914512CB97A06007A868B /* PhotoCollection.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -84,6 +96,9 @@
 			isa = PBXGroup;
 			children = (
 				A849BB922C59773200AC8FF7 /* Navigation+Extension.swift */,
+				A849BB492C5972FA00AC8FF7 /* RectKey.swift */,
+				A849BB4B2C5972FA00AC8FF7 /* HeroKey.swift */,
+				A849BB4D2C5972FA00AC8FF7 /* Interpolation.swift */,
 			);
 			name = Extension;
 			path = MultiProject/Extension;
@@ -105,7 +120,6 @@
 				A849BB9B2C59775400AC8FF7 /* HeroLayer.swift */,
 				A849BB9C2C59775400AC8FF7 /* Home.swift */,
 				A849BB9D2C59775400AC8FF7 /* PhotoGalleryView.swift */,
-				A849BB9E2C59775400AC8FF7 /* PhotoItemView.swift */,
 			);
 			path = PhotoGallery;
 			sourceTree = "<group>";
@@ -121,10 +135,10 @@
 		A849BBA32C59775400AC8FF7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A849BBA12C59775400AC8FF7 /* ScrollableTabBar */,
 				A849BB992C59775400AC8FF7 /* MiniPlayer */,
 				A849BB9F2C59775400AC8FF7 /* PhotoGallery */,
-				A849BBA12C59775400AC8FF7 /* ScrollableTabBar */,
-				A849BBA22C59775400AC8FF7 /* ProjectList.swift */,
+				A84FA14A2C6BC8C50000C7E6 /* PhotoLibraryGird */,
 			);
 			name = View;
 			path = MultiProject/View;
@@ -148,6 +162,17 @@
 			path = MultiProject/ViewModel;
 			sourceTree = "<group>";
 		};
+		A84FA14A2C6BC8C50000C7E6 /* PhotoLibraryGird */ = {
+			isa = PBXGroup;
+			children = (
+				A84FA1482C6BC5760000C7E6 /* PhotoGridCellView.swift */,
+				A86581912C73710B00098A97 /* PhotoGridDetailView.swift */,
+				A849BB9E2C59775400AC8FF7 /* PhotoGirdView.swift */,
+				A84FA14B2C6C3E140000C7E6 /* PhotoCollectionView.swift */,
+			);
+			path = PhotoLibraryGird;
+			sourceTree = "<group>";
+		};
 		A897A0D32C475A18001C66E7 = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				A849BB442C5972C700AC8FF7 /* MultiProjectApp.swift */,
+				A849BBA22C59775400AC8FF7 /* ProjectList.swift */,
 				A849BB932C59773200AC8FF7 /* Extension */,
 				A8067ACB2C4A5E630046247C /* Model */,
 				A849BBA32C59775400AC8FF7 /* View */,
@@ -249,20 +275,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				A849BBAB2C59775500AC8FF7 /* ScrollableTabBarView.swift in Sources */,
+				A82914522CB97A06007A868B /* PhotoCollection.swift in Sources */,
 				A849BB502C5972FA00AC8FF7 /* RectKey.swift in Sources */,
 				A849BBA42C59775500AC8FF7 /* MiniPlayerHomeView.swift in Sources */,
-				A849BBAA2C59775500AC8FF7 /* PhotoItemView.swift in Sources */,
+				A849BBAA2C59775500AC8FF7 /* PhotoGirdView.swift in Sources */,
 				A849BBA72C59775500AC8FF7 /* HeroLayer.swift in Sources */,
+				A84FA14C2C6C3E140000C7E6 /* PhotoCollectionView.swift in Sources */,
 				A849BBA62C59775500AC8FF7 /* Detail.swift in Sources */,
 				A849BB552C5972FA00AC8FF7 /* DataModel.swift in Sources */,
 				A849BB4F2C5972FA00AC8FF7 /* PlayerItem.swift in Sources */,
+				A84FA1492C6BC5760000C7E6 /* PhotoGridCellView.swift in Sources */,
 				A849BBA82C59775500AC8FF7 /* Home.swift in Sources */,
+				A86581922C73710B00098A97 /* PhotoGridDetailView.swift in Sources */,
 				A849BBA52C59775500AC8FF7 /* MiniPlayerView.swift in Sources */,
 				A849BB522C5972FA00AC8FF7 /* HeroKey.swift in Sources */,
 				A849BB532C5972FA00AC8FF7 /* TabModel.swift in Sources */,
+				A84FA1472C68ADAA0000C7E6 /* CachedImageManager.swift in Sources */,
 				A849BB542C5972FA00AC8FF7 /* Interpolation.swift in Sources */,
-				A849BB512C5972FA00AC8FF7 /* PlaterConfig.swift in Sources */,
+				A849BB512C5972FA00AC8FF7 /* PlayerConfig.swift in Sources */,
 				A849BBA92C59775500AC8FF7 /* PhotoGalleryView.swift in Sources */,
+				A82914502CB8B871007A868B /* PhotoAssetCollection.swift in Sources */,
 				A849BBB22C59777500AC8FF7 /* PhotoViewModel.swift in Sources */,
 				A849BB952C59773200AC8FF7 /* Navigation+Extension.swift in Sources */,
 				A849BB452C5972C700AC8FF7 /* MultiProjectApp.swift in Sources */,
@@ -403,6 +435,7 @@
 				DEVELOPMENT_TEAM = AK7S865VNK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진보관함에 접근하기 위한 권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -433,6 +466,7 @@
 				DEVELOPMENT_TEAM = AK7S865VNK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진보관함에 접근하기 위한 권한이 필요합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

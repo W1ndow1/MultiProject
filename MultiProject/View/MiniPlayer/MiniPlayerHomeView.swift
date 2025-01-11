@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MiniPlayerHomeView: View {
     @State private var activeTab: UnderTab = .home
-    @State private var config: PlaterConfig = .init()
+    @State private var config: PlayerConfig = .init()
     
     var body: some View {
         ZStack(alignment: .bottom){

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MiniPlayerView: View {
-    @Binding var config: PlaterConfig
+    @Binding var config: PlayerConfig
     var size: CGSize
     var close: () -> ()
     let miniPlayerHeight: CGFloat = 50
@@ -16,7 +16,6 @@ struct MiniPlayerView: View {
     
     var body: some View {
         let progress = config.progress > 0.7 ? (config.progress - 0.7) / 0.3 : 0
-        
         VStack(spacing:0 ) {
             ZStack(alignment: .top) {
                 GeometryReader {

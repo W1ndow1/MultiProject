@@ -1,9 +1,3 @@
-//
-//  RectKey.swift
-//  NavigationEffect
-//
-//  Created by window1 on 7/26/24.
-//
 
 
 import SwiftUI
@@ -12,7 +6,7 @@ struct RectKey: PreferenceKey {
     static var defaultValue: CGRect = .zero
     static func reduce(value: inout CGRect, nextValue: () -> CGRect) {
         value = nextValue()
-    }
+    } 
 }
 
 extension View {

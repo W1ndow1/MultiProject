@@ -1,9 +1,4 @@
-//
-//  Interpolation.swift
-//  NavigationEffect
-//
-//  Created by window1 on 7/26/24.
-//
+
 
 import SwiftUI
 

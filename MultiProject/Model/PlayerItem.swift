@@ -1,9 +1,4 @@
-//
-//  PlayerItem.swift
-//  MultiProject
-//
-//  Created by window1 on 7/29/24.
-//
+
 
 import SwiftUI
 

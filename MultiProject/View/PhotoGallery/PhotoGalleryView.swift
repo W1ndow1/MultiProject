@@ -47,3 +47,4 @@ struct PhotoGalleryView: View {
 #Preview {
     PhotoGalleryView()
 }
+

@@ -22,10 +22,34 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "PhotoViewModel.fetchAsset():PhotoViewModel.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "allPhotos">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "DetailView.changeSelectedItme(width:):ContentView.swift">
          <PersistentStrings>
             <PersistentString
                value = "seletedItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #3 in PhotoCollectionView.body.getter:PhotoCollectionView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model.selectedAssetItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #2 in PhotoCollectionView.body.getter:PhotoCollectionView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model.selectedAssetItem">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

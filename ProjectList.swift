@@ -15,11 +15,12 @@ struct ProjectList: View {
                 NavigationLink("PhotoGallery", destination: PhotoGalleryView())
                 NavigationLink("ScrollalbeTabBar", destination: ScrollableTabBarView())
                 NavigationLink("MiniPlayer", destination: MiniPlayerHomeView())
+                NavigationLink("PhotoLibaray", destination: PhotoCollectionView())
                 
                 Section("테스트"){
-                    ForEach(0...50, id: \.self) { index in
-                        Text("Row Index Count : \(index)")
-                    }
+//                    ForEach(0...50, id: \.self) { index in
+//                        Text("Row Index Count : \(index)")
+//                    }
                 }
             }
             .navigationTitle("Project List")

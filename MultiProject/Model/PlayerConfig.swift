@@ -1,13 +1,8 @@
-//
-//  PlaterConfig.swift
-//  MultiProject
-//
-//  Created by window1 on 7/30/24.
-//
+
 
 import SwiftUI
 
-struct PlaterConfig: Equatable {
+struct PlayerConfig: Equatable {
     var position: CGFloat = .zero
     var lastPosition: CGFloat = .zero
     var progress: CGFloat = .zero

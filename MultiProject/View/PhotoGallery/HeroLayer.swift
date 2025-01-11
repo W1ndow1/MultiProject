@@ -41,5 +41,5 @@ struct HeroLayer: View {
 }
 
 #Preview {
-    ProjectList()
+    PhotoGalleryView()
 }

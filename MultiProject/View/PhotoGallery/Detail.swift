@@ -9,7 +9,6 @@ import SwiftUI
 
 struct Detail: View {
     @EnvironmentObject private var model: PhotoViewModel
-    @State private var isVDrag: Bool = false
     
     var body: some View {
         VStack(spacing: 0) {
@@ -35,10 +34,10 @@ struct Detail: View {
                                             let height = translation.height + (velocity.height / 5)
                                             
                                             if height > (size.height * 0.5) {
-                                                ///뷰 닫기
+                                                //뷰 닫기
                                                 model.toggleView(show: false)
                                             } else {
-                                                ///초기화
+                                                //초기화
                                                 withAnimation(.easeInOut(duration: 0.2)) {
                                                     model.offset = .zero
                                                     model.dragProgress = 0
@@ -46,6 +45,7 @@ struct Detail: View {
                                             }
                                         }
                                 )
+                              
                         }
                     }
                     .scrollTargetLayout()
@@ -117,6 +117,7 @@ struct Detail: View {
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width:size.width, height:size.height)
+                
         }
     }
     
@@ -167,10 +168,9 @@ struct Detail: View {
                 .ignoresSafeArea()
         }
     }
-    
-    
+
 }
 
 #Preview {
-    ProjectList()
+    PhotoGalleryView()
 }

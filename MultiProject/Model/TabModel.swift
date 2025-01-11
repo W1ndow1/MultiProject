@@ -1,9 +1,4 @@
-//
-//  TabModel.swift
-//  NavigationEffect
-//
-//  Created by window1 on 7/25/24.
-//
+
 
 import Foundation
 

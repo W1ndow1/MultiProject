@@ -1,12 +1,5 @@
-//
-//  Navigation+Extension.swift
-//  MultiProject
-//
-//  Created by window1 on 7/28/24.
-//
 
 ///  NavigationTitlebar 스크롤시 숨기기
-
 import SwiftUI
 
 extension UIView {
